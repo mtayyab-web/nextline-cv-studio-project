@@ -4,4 +4,53 @@
     box-sizing: border-box;
 }
 
-/* is file me ap common css lekhen ge jo hr file k leye apply hoga jese navbar ki css etc. and remove this line before coding */
+:root{
+    --primary-text-color : #25252A;
+    --primary-btn-color : #6543DC ;
+    --secondary-color : #D5F58A;
+    --bg-color : #FFFFFF;
+    --border-color : #DFDED8;
+    --para-color : #6A6973;
+    --primary-font : 'DM Serif Display';
+    --secondary-font : 'Inter',sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-family: var(--primary-font);
+    font-size: 54px;
+}
+
+.navbar{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30;
+    justify-content: space-between;
+    border: 2px solid #DFDED8;
+}
+
+.nav-link{
+    margin-left: 20px;
+}
+
+.nav-links a,.login-btn{
+    color: black;
+}
+
+.btn-primary{
+    margin: 0 0 0 10px;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: var(--primary-btn-color);
+    color: #FFFFFF;
+
+}
