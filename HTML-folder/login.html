@@ -1,18 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In</title>
-    <link rel="shortcut icon" href="../assets/icons/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS-folder/common.css">
-    <link rel="stylesheet" href="../CSS-folder/login.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In | nextline CV Studio</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../CSS-folder/common.css" />
+    <link rel="stylesheet" href="../CSS-folder/login.css" />
+  </head>
+  <body>
+    <!-- ---------------Code By Shahzad Ali--------------------- -->
+    <main class="auth-page">
+      <!-- Login Section -->
+      <section class="login-section-a">
+        <!-- Heading -->
+        <div class="login-header">
+          <h1>Good to see you.</h1>
+          <p>Your next chapter is waiting. Let’s pick up your story.</p>
+        </div>
+
+        <!-- Google Login -->
+        <div class="google-login">
+          <button type="button" class="google-btn">Continue with Google</button>
+        </div>
+
+        <!-- Divider -->
+        <div class="login-divider">
+          <span></span>
+          <p>or log in with email</p>
+          <span></span>
+        </div>
+
+        <!-- Login Form -->
+        <form class="login-form">
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <!-- Password -->
+          <div class="form-group">
+            <label for="password">Password</label>
+            <br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+          </div>
+
+          <!-- Remember Me and Forgot Password -->
+          <div class="login-options">
+            <label class="remember-me">
+              <input type="checkbox" name="remember" />
+              Keep me logged in
+            </label>
+
+            <a href="#" class="forgot-password"> Forgot password? </a>
+          </div>
+
+          <!-- Login Button -->
+          <button type="submit" class="login-btn">Log in →</button>
+        </form>
+
+        <!-- Create Account -->
+        <div class="create-account">
+          <p>
+            New here?
+            <a href="#">Create an account ↗</a>
+          </p>
+        </div>
 
 
+
+      </section>
+      <section class="login-section-b">
+        <p class="login-para">A LITTLE GUIDANCE. A LOT OF YOU.</p>
+        <h2 class="login-heading">
+          Your next chapter, <br> right where you left it.
+        </h2>
+        <div class="login-img-div">
+          <img src="../assets/images/Alex Morgan sample CV.png" alt="c    v-pic" />
+        </div>
+        <div class="login-box">✓ Your story. Your pace. Always saved.</div>
+        <div class="login-last-para">
+          Fictional sample CV · The Studio template
+        </div>
+      </section>
+    </main>
 
     <script src="../JS-folder/login.js"></script>
-</body>
+  </body>
 </html>
