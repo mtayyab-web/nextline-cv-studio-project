@@ -1,3 +1,276 @@
 /* -------------------shahzad ali--------------- */
 
 /* this is for forget password page */
+/* ----------------------------------shahzad ali code ----------------------------- */
+
+
+.auth-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 90vh;
+  }
+.login-section-a{
+    display: flex;
+    width: 440px;
+    flex-direction: column;
+}
+.login-header h1 {
+  height: 56px;
+  width: 440px;
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+.login-header p {
+  height: 24px;
+  width: 440px;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0%;
+  line-height: 160%;
+  color: var(--para-color);
+}
+.google-btn {
+  color: var(--primary-text-color);
+  width: 440px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 20px;
+  border-color: var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 600;
+  margin-top: 19px;
+}
+.login-divider {
+    margin-top: 15px;
+    margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 440px;
+  height: 12px;
+  gap: 16px;
+}
+.login-divider span {
+  flex: 1;
+  height: 1px;
+  background-color: #cccccc;
+}
+
+.login-divider p {
+  height: 15px;
+  width: 107px;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 400;
+  font-family: var(--secondary-font);
+  color: var(--para-color);
+}
+
+.login-form {
+    margin-top: 50px;
+}
+.login-form .form-group {
+
+  height: 74px;
+  width: 440px;
+}
+.login-form .form-group label {
+  padding-top: 11px;
+  height: 16px;
+  font-family: var(--secondary-font);
+  width: 88px;
+  font-weight: 600;
+  padding-bottom: 3px;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--primary-text-color);
+}
+.login-form .form-group input {
+  width: 440px;
+  height: 50px;
+  min-height: 48px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  padding: 14px;
+}
+.login-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 16px;
+  justify-content: space-between;
+}
+.login-options .remember-me {
+    width: 131px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--primary-text-color);
+}
+.login-options a{
+    color: var(--primary-btn-color);
+}
+.login-options .remember-me input {
+}
+.login-form button {
+  width: 440px;
+  height: 48px;
+  border-radius: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: var(--primary-btn-color);
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+.login-form .login-btn {
+  font-size: 14px;
+  letter-spacing: 0%;
+  line-height: 100%;
+  font-weight: 600;
+  color: #ffffff;
+}
+.create-account{
+    font-weight: 400;
+    color: var(--para-color );
+    width:  440px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+}
+
+.email-help-box {
+    margin-top: 13px;
+    background-color: #ffffff;
+    border: 1px solid #deddd8;
+    border-radius: 12px;
+    padding: 22px;
+    max-width: 575px;
+    gap: 10px;
+}
+
+.email-help-box h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 14px;
+}
+
+.email-help-box p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #6A6973;
+    margin: 0 0 12px;
+}
+
+.help-desk-link {
+    color: #6941ff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.help-desk-link:hover {
+    text-decoration: underline;
+}
+.login-section-b {
+    background-color: #EDE8FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 744px;
+    height: 746px;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.login-section-b p{
+    height: 13px;
+    width: 237px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: var(--secondary-font);
+    letter-spacing: 1.4px;
+    font-family: var(--secondary-font);
+    color: var(--primary-btn-color);
+    white-space: nowrap
+}
+.login-section-b h1{
+    text-align: file;
+    width: 664px;
+    height: 92px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 110.000px;
+}
+.login-section-b .login-img-div{
+    width: 664px;
+    height: 410px;
+}
+.login-section-b .login-img-div img{
+    height: 410px;
+    width: 290px;
+    padding: 0px;
+    margin: 0px;
+}
+.login-section-b .login-box{
+    background-color: #D5F58A;
+    font-family: var(--secondary-font);
+    height: 43px;
+    width: 251px;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 14px;
+    margin-bottom: 16PX;
+  white-space: nowrap;
+
+}
+.login-section-b .login-last-para{
+ height: 12px;
+ width: 198px;
+ font-size: 10px;
+ line-height: 100%;
+ letter-spacing: 0%;
+ font-weight: 400;   
+}
+
+/* ==========================================================================
+   Mobile Styles (Applies only to screens smaller than 768px)
+   ========================================================================== */
+@media screen and (max-width: 767px) {
+  
+  /* Hide the target section entirely on mobile */
+  .login-section-b {
+    display: none !important; 
+  }
+
+  /* Make the other section adjust to mobile (usually 100% width) */
+  .login-section-a {
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    align-items: center;
+  }
+}

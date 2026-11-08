@@ -1,17 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-    <link rel="shortcut icon" href="../assets/icons/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS-folder/common.css">
-    <link rel="stylesheet" href="../CSS-folder/signup.css">
-</head>
-<body>
-    
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../CSS-folder/common.css" />
+    <link rel="stylesheet" href="../CSS-folder/signup.css" />
+  </head>
+  <body>
+    <main class="auth-page">
+      <!-- Login Section -->
+      <section class="login-section-a">
+        <!-- Heading -->
+        <div class="login-header">
+          <h1>A fresh page.
+A stronger story.</h1>
+          <p>Create your free account. Make a CV that feels like you.</p>
+        </div>
 
-<h1>Hello You wanna sign Up. Then wait until I get this done.</h1>
+        <!-- Google Login -->
+        <a href="index.html">
+            <div class="google-login">
+          <button type="button" class="google-btn">Continue with Google</button>
+        </div>
+        </a>
+
+        <!-- Divider -->
+        <div class="login-divider">
+          <span></span>
+          <p>or Continue with Email</p>
+          <span></span>
+        </div>
+
+        <!-- Login Form -->
+        <form class="login-form">
+
+            <!-- -----name---- -->
+             <div class="form-group">
+            <label for="name">Full Name</label>
+            <br />
+            <input
+              type="txt"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+            />
+          </div>
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <!-- Password -->
+          <div class="form-group">
+            <label for="password">Create Password</label>
+            <br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+          </div>
+
+          <!-- Remember Me and Forgot Password -->
+          
+            <label class="remember-me">
+              <input type="checkbox" name="remember" />
+              I agree to the Terms of use and Privacy policy. Your CV and your story remain yours.
+            </label>
+
+          
+
+          <!-- Login Button -->
+          <button type="submit" class="login-btn">Create my account →</button>
+        </form>
+
+        <!-- Create Account -->
+        <div class="create-account">
+          <p>
+            Already have an account?
+            <a href="./login.html">Login ↗</a>
+          </p>
+        </div>
+      </section>
+      <section class="login-section-b">
+        <p class="login-para">A LITTLE GUIDANCE. A LOT OF YOU.</p>
+        <h2 class="login-heading">
+          Your next chapter, <br />
+          right where you left it.
+        </h2>
+        <div class="login-img-div">
+          <img src="../assets/images/Alex Morgan sample CV.png" alt="cv-pic" />
+        </div>
+        <div class="login-box">✓ Your story. Your pace. Always saved.</div>
+        <div class="login-last-para">
+          Fictional sample CV · The Studio template
+        </div>
+      </section>
+    </main>
+
     <script src="../JS-folder/signup.js"></script>
-</body>
+  </body>
 </html>
