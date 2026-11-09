@@ -29,7 +29,7 @@ back in.</h1>
 
 
         <!-- Login Form -->
-        <form class="login-form">
+        <form class="login-form" id="forgetForm">
           <!-- Email -->
           <div class="form-group">
             <label for="email">Email address</label>
@@ -39,6 +39,7 @@ back in.</h1>
               id="email"
               name="email"
               placeholder="Enter your email"
+              required
             />
           </div>
 
@@ -48,7 +49,7 @@ back in.</h1>
          
 
           <!-- Login Button -->
-          <a href="index.html"><button type="submit" class="login-btn">Send reset link →</button></a>
+          <button type="submit" class="login-btn">Send reset link →</button>
         </form>
 
         <!-- Create Account -->
@@ -95,5 +96,6 @@ Your story is still yours.
      
 
     <br />
+    <script src="../JS-folder/forget.js"></script>
   </body>
 </html>

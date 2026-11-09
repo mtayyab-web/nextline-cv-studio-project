@@ -17,8 +17,12 @@
     flex-direction: column;
 }
 .login-header h1 {
-  height: 56px;
+ height: 112px;
   width: 440px;
+  font-weight: 400;
+  line-height: 108%;
+  font-size: 52px;
+  letter-spacing: -1px;
   color: var(--primary-text-color);
   font-family: var(--primary-font);
 }
@@ -273,4 +277,17 @@
     max-width: 100%;
     align-items: center;
   }
+}
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .login-section-a {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .login-section-b {
+        width: 40%;
+    }
+
 }
