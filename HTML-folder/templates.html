@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,8 +34,88 @@
 
     </nav>
     </div>
+=======
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templates | nextline CV Studio</title>
+    <link rel="shortcut icon" href="../assets/icons/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../CSS-folder/common.css" />
+    <link rel="stylesheet" href="../CSS-folder/templates.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="./index.html" class="brand" aria-label="nextline home">
+          <div class="brand-mark">N</div>
+          <span>nextline CV STUDIO</span>
+        </a>
+>>>>>>> ed8296b (Updated HTML project)
 
+        <nav class="nav" aria-label="Main navigation">
+          <a href="./index.html">Home</a>
+          <a href="./templates.html">Templates</a>
+          <a href="./editor.html">CV Builder</a>
+          <a href="./login.html">Login</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="templates-page">
+      <div class="container">
+        <div class="page-head">
+          <div>
+            <span class="eyebrow">Templates</span>
+            <h1>Choose a layout that fits your story</h1>
+          </div>
+          <a class="btn btn-primary" href="./editor.html">Start with this design</a>
+        </div>
+
+        <div class="filter-bar" aria-label="Template filters">
+          <button type="button" class="filter-btn active">All</button>
+          <button type="button" class="filter-btn">Creative</button>
+          <button type="button" class="filter-btn">Minimal</button>
+          <button type="button" class="filter-btn">Executive</button>
+          <button type="button" class="filter-btn">Academic</button>
+        </div>
+
+        <section class="templates-grid" aria-label="Template gallery">
+          <article class="template-card" data-category="creative">
+            <div class="template-preview"></div>
+            <div class="template-meta">
+              <span class="template-tag">Creative</span>
+              <span class="muted">Popular</span>
+            </div>
+            <h3>Modern Portfolio</h3>
+            <p class="muted">Built for designers, marketers, and visual storytellers.</p>
+            <button type="button" class="btn btn-primary">Use template</button>
+          </article>
+
+          <article class="template-card" data-category="minimal">
+            <div class="template-preview"></div>
+            <div class="template-meta">
+              <span class="template-tag">Minimal</span>
+              <span class="muted">Clean</span>
+            </div>
+            <h3>Nordic Simple</h3>
+            <p class="muted">A crisp, highly readable layout focused on clarity and balance.</p>
+            <button type="button" class="btn btn-primary">Use template</button>
+          </article>
+
+          <article class="template-card" data-category="executive">
+            <div class="template-preview"></div>
+            <div class="template-meta">
+              <span class="template-tag">Executive</span>
+              <span class="muted">Professional</span>
+            </div>
+            <h3>Executive Edge</h3>
+            <p class="muted">Ideal for leadership roles with clear metrics and strong positioning.</p>
+            <button type="button" class="btn btn-primary">Use template</button>
+          </article>
+        </section>
+      </div>
+    </main>
 
     <script src="../JS-folder/templates.js"></script>
-</body>
+  </body>
 </html>

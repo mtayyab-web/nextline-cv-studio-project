@@ -1,0 +1,124 @@
+.templates-page {
+  padding: 52px 0 80px;
+}
+
+.page-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.page-head h1 {
+  font-size: clamp(2.1rem, 4vw, 3.2rem);
+  letter-spacing: -0.05em;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.filter-btn {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.templates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.template-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(40, 63, 120, 0.06);
+}
+
+.template-preview {
+  height: 260px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #eaf0ff, #f4f7ff);
+  border: 1px solid rgba(75, 107, 255, 0.12);
+  margin-bottom: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.template-preview::before,
+.template-preview::after {
+  content: "";
+  position: absolute;
+  inset: 16px 18px auto 18px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(23, 32, 51, 0.08);
+}
+
+.template-preview::after {
+  inset: 42px 18px auto 18px;
+  width: 52%;
+  height: 18px;
+}
+
+.template-card:nth-child(2) .template-preview {
+  background: linear-gradient(135deg, #fff4df, #f8f0ff);
+}
+
+.template-card:nth-child(3) .template-preview {
+  background: linear-gradient(135deg, #e9fff5, #edf8ff);
+}
+
+.template-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.template-tag {
+  background: rgba(75, 107, 255, 0.1);
+  color: var(--primary);
+  border-radius: 999px;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.template-card h3 {
+  margin-bottom: 8px;
+}
+
+.template-card .btn {
+  margin-top: 16px;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .templates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
