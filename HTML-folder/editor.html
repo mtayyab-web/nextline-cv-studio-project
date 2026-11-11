@@ -1,224 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Build Your CV | nextline CV Studio</title>
-    <link rel="shortcut icon" href="../assets/icons/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="../CSS-folder/common.css" />
-    <link rel="stylesheet" href="../CSS-folder/editor.css" />
-  </head>
-  <body>
-  <div class="container">
-
-        <div class="left">
-
-            <div class="small-text">
-                🟪 A LITTLE GUIDANCE. A LOT OF YOU.
-            </div>
-
-            <h1>
-                Your Story.<br>
-                Only<br>
-                Stronger.
-            </h1>
-
-            <div class="line"></div>
-
-            <p class="description">
-                Make a CV that feels like you—and reads like your
-                next opportunity. Thoughtful templates, guided
-                editing and AI when you need a nudge.
-            </p>
-
-            <div class="buttons">
-
-                <a href="#" class="btn primary">
-                    Build my CV ↗
-                </a>
-
-                <a href="#" class="btn secondary">
-                    Explore templates ↗
-                </a>
-
-            </div>
-
-            <div class="check">
-                <span>✓</span> Start free. No blank page required.
-            </div>
-
-            <div class="bottom-text">
-                ↓ &nbsp; Make your next move a good one.
-            </div>
-
-        </div>
-
-
-        <!-- RIGHT SIDE -->
-
-        <div class="right">
-
-            <div class="editor">
-
-                <div class="top-bar">
-
-                    <h3>📄 &nbsp; Alex's next chapter</h3>
-
-                    <button class="download">
-                        Download PDF ↗
-                    </button>
-
-                </div>
-
-
-                <div class="editor-content">
-
-                    <!-- SIDEBAR -->
-
-                    <div class="sidebar">
-
-                        <div class="progress">
-                            <b>Your CV is taking shape</b>
-                            <span>3 / 5</span>
-                        </div>
-
-                        <div class="progress-line">
-                            <div></div>
-                        </div>
-
-                        <div class="tabs">
-                            <span class="active">Content</span>
-                            <span>Design</span>
-                            <span>Check</span>
-                        </div>
-
-                        <div class="menu">
-
-                            <p>✓ &nbsp; Personal details</p>
-
-                            <p>✓ &nbsp; Profile</p>
-
-                            <p class="selected">
-                                03 &nbsp; Experience
-                            </p>
-
-                            <p>04 &nbsp; Education</p>
-
-                            <p>05 &nbsp; Skills</p>
-
-                        </div>
-
-                        <h4>Your latest role</h4>
-
-                        <input type="text" value="Product Designer">
-
-                        <div class="help">
-                            ✨ &nbsp; Help me describe my impact
-                        </div>
-
-                        <div class="next">
-                            Next: add your education →
-                        </div>
-
-                    </div>
-
-
-                    <!-- CV PREVIEW -->
-
-                    <div class="preview">
-
-                        <div class="cv">
-
-                            <h1>Alex Morgan</h1>
-
-                            <div class="job">
-                                Product Designer
-                            </div>
-
-                            <div class="details">
-                                London, UK · alex.morgan@email.com<br>
-                                alexmorgan.design · linkedin.com/in/alexmorgan
-                            </div>
-
-                            <div class="cv-line"></div>
-
-                            <h4>PROFILE</h4>
-
-                            <p>
-                                Thoughtful designer turning complex problems
-                                into clear, human experiences. Bringing 4 years
-                                of product craft, curiosity and cross-functional
-                                collaboration.
-                            </p>
-
-                            <h4>EXPERIENCE</h4>
-
-                            <h3>
-                                Product Designer · Northstar Studio
-                            </h3>
-
-                            <div class="details">
-                                2022 — Present / London
-                            </div>
-
-                            <p>
-                                • Redesigned onboarding with research-led flows,
-                                helping new teams reach their first project faster.
-                            </p>
-
-                            <p>
-                                • Partnered with engineers to ship an accessible
-                                design system across web and mobile.
-                            </p>
-
-                            <h3>
-                                Junior Designer · Form & Field
-                            </h3>
-
-                            <div class="details">
-                                2020 — 2022 / Bristol
-                            </div>
-
-                            <p>
-                                • Translated customer interviews into prototypes
-                                for early-stage digital products.
-                            </p>
-
-                            <h4>EDUCATION</h4>
-
-                            <p>
-                                BA (Hons) Graphic Design
-                            </p>
-
-                            <h4>SKILLS</h4>
-
-                            <p>
-                                UI Design · UX Research · Figma · Prototyping
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- NOTIFICATION -->
-
-            <div class="notification">
-
-                <b>✓ &nbsp; Looking sharp. Reading clearly.</b>
-
-                <p>
-                    Clean headings. Selectable text. You're on track.
-                </p>
-
-            </div>
-
-        </div>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nextline - Cover Letter Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <span class="logo"><strong>nextline</strong> CV STUDIO</span>
     </div>
-  </body>
+    <nav class="nav-links">
+      <a href="#">My resumes</a>
+      <a href="#">Templates</a>
+      <a href="#" class="active">Cover letters</a>
+      <a href="#">Pricing</a>
+    </nav>
+    <div class="nav-right">
+      <span class="badge">Free plan</span>
+      <span class="avatar">AM</span>
+      <span class="user-name">Alex</span>
+    </div>
+  </header>
+
+  <!-- Sub Header / Action Bar -->
+  <div class="action-bar">
+    <div class="doc-title-info">
+      <h3>Alex Morgan — Product Designer · Forma</h3>
+      <p class="status">✓ Cover letter · All changes saved just now</p>
+    </div>
+    <div class="action-buttons">
+      <button class="btn-secondary">← My documents</button>
+      <button class="btn-purple">Preview & download →</button>
+    </div>
+  </div>
+
+  <!-- Main Content Layout -->
+  <main class="container">
+
+    <!-- Left Column: Form & Suggestions -->
+    <section class="left-panel">
+      <span class="section-tag">AN INTRODUCTION, IN YOUR VOICE</span>
+      <h1 class="main-title">Make the connection.</h1>
+      <p class="sub-text">Show why this role matters to you—and what you'll bring to it.</p>
+
+      <!-- Stepper Tabs -->
+      <div class="stepper">
+        <span class="step done">1 Role details ✓</span>
+        <span class="step active">2 Your letter</span>
+        <span class="step">3 Review</span>
+      </div>
+
+      <!-- Input Fields Grid -->
+      <form class="form-grid">
+        <div class="field">
+          <label>Target role</label>
+          <input type="text" value="">
+        </div>
+        <div class="field">
+          <label>Company</label>
+          <input type="text" value="">
+        </div>
+        <div class="field full-width">
+          <label>Hiring manager</label>
+          <input type="text" value="">
+        </div>
+        <div class="field full-width">
+          <label>Linked CV</label>
+          <select>
+            <option></option>
+            <option>for digstan</option>
+            <option>for digital marketing</option>
+          </select>
+        </div>
+        <div class="field full-width">
+          <label>Why this role?</label>
+          <textarea rows="3"></textarea>
+        </div>
+      </form>
+
+      <!-- AI Writing Room Box -->
+      <div class="ai-box">
+        <div class="ai-header">✦ The Nextline writing room</div>
+        <p class="ai-desc">Connect your onboarding work at Harbour Studio with Forma's focus on simpler workflows. Keep the opening specific, not over-familiar.</p>
+        
+        <div class="ai-card">
+          <span class="ai-tag">SUGGESTED OPENING · EDITABLE</span>
+          <p class="ai-text">I'm drawn to Forma's focus on making complex work feel simple. At Harbour Studio, I've worked on that same challenge: turning a complicated setup process into a clearer first-project experience.</p>
+          <div class="ai-actions">
+            <button class="btn-use">Use this opening ✓</button>
+            <a href="#" class="btn-link">Try another ↺</a>
+          </div>
+        </div>
+        <span class="ai-footer">Only keep what's true. You can edit or skip every suggestion.</span>
+      </div>
+
+      <!-- Tone & Length Options -->
+      <div class="options-grid">
+        <div class="field">
+          <label>Tone</label>
+          <input type="text">
+        </div>
+        <div class="field">
+          <label>Length</label>
+          <input type="text">
+        </div>
+      </div>
+
+      <button class="btn-submit">Review my letter →</button>
+    </section>
+
+    <!-- Right Column: Document Preview -->
+    <section class="right-panel">
+      <div class="preview-header">
+        <span>LETTER PREVIEW</span>
+        <span>A4 · 80%</span>
+      </div>
+
+      <!-- A4 Page Paper -->
+      <div class="paper">
+        <h1 class="doc-name">Alex Morgan</h1>
+        <p class="doc-role">Product Designer</p>
+        <p class="doc-meta">London, UK · alex.morgan@email.com · +44 7700 900123 · alexmorgan.design</p>
+        
+        <hr class="doc-line">
+
+        <p class="doc-date">31 October 2026</p>
+        <p>Jamie Patel<br>Hiring team · Forma</p>
+        
+        <p class="doc-re"><strong>Re: Product Designer</strong></p>
+        
+        <p>Dear Jamie,</p>
+        <p>I'm drawn to Forma's focus on making complex work feel simple. At Harbour Studio, I've worked on that same challenge: turning a complicated setup process into a clearer first-project experience.</p>
+        <p>My approach starts with listening. I led usability sessions with 12 customers to understand where they were getting stuck, then worked with product managers and engineers to prioritise the changes that mattered. I enjoy connecting those research findings to practical, accessible interface patterns.</p>
+        <p>Before Harbour Studio, I designed customer journeys and prototypes at North & Co. That work taught me how to make decisions collaboratively and communicate the thinking behind a design—not just the final screens.</p>
+        <p>I'd welcome the chance to bring that approach to Forma and learn more about the problems your team is working on. Thank you for considering my application.</p>
+        
+        <p>Best wishes,<br><strong>Alex Morgan</strong></p>
+      </div>
+      <p class="preview-footer">Page 1 of 1 · Matches The Studio CV</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>© 2026 Nextline. Your story belongs to you.</span>
+    <div class="footer-links">
+      <a href="#">Help desk</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">English ˅</a>
+    </div>
+  </footer>
+
+
+  
+  
+   
+
+</body>
 </html>
