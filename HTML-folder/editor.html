@@ -157,7 +157,229 @@
     </div>
   </footer>
 
+  
+  
+    <!-- Navbar -->
+    <nav class="navbar">
 
+        <div class="logo">▮▮ nextline</div>
+
+        <div class="nav-links">
+            <a href="#">My resumes</a>
+            <a href="#">Templates</a>
+            <a href="#">Cover letters</a>
+            <a href="#">Pricing</a>
+        </div>
+
+        <div class="profile">Free plan 👤 Alex</div>
+
+    </nav>
+
+
+    <!-- Main Section -->
+    <div class="container">
+
+        <p class="small-text">YOUR NEXT CHAPTER, READY TO GO</p>
+
+        <h1>Made by you. Ready for what's next.</h1>
+
+        <p class="subtitle">
+            One last look, then take your story with you.
+        </p>
+
+
+        <div class="main-content">
+
+            <!-- Resume Preview -->
+            <div class="preview">
+
+                <div class="preview-top">
+
+                    <b>Alex Morgan — Product Designer</b>
+                </div>
+
+
+                <div class="resume" id="resume">
+
+                    <h2>Alex Morgan</h2>
+
+                    <h4>Product Designer</h4>
+
+                    <p>
+                        London, UK · alex.morgan@email.com
+                        · +44 7700 900123
+                    </p>
+
+                    <hr>
+
+                    <h4>PROFILE</h4>
+
+                    <p>
+                        Thoughtful product designer with 5 years
+                        of experience turning complex workflows
+                        into clear digital experiences.
+                    </p>
+
+                    <h4>EXPERIENCE</h4>
+
+                    <b>Product Designer - Harbour Studio</b>
+
+                    <p>May 2022 - Present · London</p>
+
+                    <ul>
+                        <li>Partnered with product teams.</li>
+                        <li>Created user-friendly interfaces.</li>
+                        <li>Built reusable components.</li>
+                    </ul>
+
+                    <h4>EDUCATION</h4>
+
+                    <p>
+                        BA (Hons) Graphic Communication
+                        <br>
+                        University of the West of England
+                    </p>
+
+                    <h4>SELECTED SKILLS</h4>
+
+                    <p>
+                        User research · Interaction design ·
+                        Prototyping · Figma · Accessibility
+                    </p>
+
+                </div>
+
+                <div class="resume-footer">
+                    Page 1 of 1
+                </div>
+
+            </div>
+
+
+            <!-- Right Side -->
+            <div class="right-side">
+
+                <div class="card">
+
+                    <h3>Take your next step</h3>
+
+                    <label>File name</label>
+
+                    <input
+                        type="text"
+                        id="fileName"
+                        value="Alex_Morgan_Product_Designer"
+                    >
+
+                    <label>Download format</label>
+
+                    <div class="format active" id="pdfBox"
+                         onclick="selectFormat('pdf')">
+
+                        <input type="radio" name="format" checked>
+                        PDF document
+
+                        <p>Recommended</p>
+
+                        <p>
+                            Keeps your layout intact.
+                            Selectable text for applications.
+                        </p>
+
+                    </div>
+
+
+                    <div class="format" id="textBox"
+                         onclick="selectFormat('txt')">
+
+                        <input type="radio" name="format">
+                        Plain text (.txt)
+
+                        <p>Free</p>
+
+                    </div>
+
+
+                    <div class="row">
+
+                        <div>
+                            <label>Paper size</label>
+
+                            <select id="paperSize">
+                                <option>A4</option>
+                                <option>Letter</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label>Pages</label>
+
+                            <select>
+                                <option>All - 1 page</option>
+                                <option>Page 1</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <button class="download-btn"
+                            onclick="downloadCV()">
+                        Download my CV ↓
+                    </button>
+
+                    <p class="note">
+                        Your CV is ready for download.
+                    </p>
+
+                </div>
+
+
+                <!-- Checklist -->
+                <div class="card">
+
+                    <h3>Before you send</h3>
+
+                    <p class="check">✓ Contact details checked</p>
+
+                    <p class="check">✓ Dates and spelling reviewed</p>
+
+                    <p class="check">✓ Every achievement is yours</p>
+
+                </div>
+
+
+                <!-- Cover Letter -->
+                <div class="cover">
+
+                    <h3>Give your story an introduction.</h3>
+
+                    <p>
+                        Make a cover letter that matches this CV
+                        and speaks to the role.
+                    </p>
+
+                    <button onclick="createCoverLetter()">
+                        Create a cover letter →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Nextline. Your story belongs to you.</p>
+
+        <p>Help desk · Privacy · Terms · English</p>
+
+    </footer>
   
   
    

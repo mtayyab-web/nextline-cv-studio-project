@@ -344,4 +344,325 @@ body {
 }
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background: #f8f7f2;
+    color: #222;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 4%;
+    background: white;
+    border-bottom: 2px solid #6038ee;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6038ee;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+}
+
+.nav-links a:hover {
+    color: #6038ee;
+}
+
+.profile {
+    font-size: 13px;
+}
+
+/* Main Container */
+
+.container {
+    max-width: 1200px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+.small-text {
+    color: #6038ee;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+/* Main Layout */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 25px;
+}
+
+/* Resume Preview */
+
+.preview {
+    background: #eeede6;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.preview-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.zoom-buttons button {
+    border: none;
+    background: white;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.resume {
+    background: white;
+    width: 85%;
+    min-height: 550px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 3px 15px #ddd;
+    transform-origin: top center;
+    transition: 0.3s;
+}
+
+.resume h2 {
+    font-family: Georgia, serif;
+    margin-bottom: 8px;
+}
+
+.resume h4 {
+    color: #6038ee;
+    font-size: 13px;
+    margin: 12px 0 5px;
+}
+
+.resume p,
+.resume li {
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.resume ul {
+    padding-left: 15px;
+}
+
+.resume hr {
+    margin: 15px 0;
+    border: 1px solid #6038ee;
+}
+
+.resume-footer {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+/* Right Side */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #e5e3dd;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 12px 0 7px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    
+}
+
+/* Format */
+
+.format {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.format.active {
+    
+    
+}
+
+.format input {
+    width: auto;
+}
+
+.format p {
+    font-size: 11px;
+    color: #777;
+    margin-top: 8px;
+}
+
+/* Row */
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row div {
+    flex: 1;
+}
+
+/* Download Button */
+
+.download-btn {
+    width: 100%;
+    padding: 14px;
+    background: #6038ee;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background: #4824c9;
+}
+
+.note {
+    font-size: 10px;
+    color: #777;
+    margin-top: 12px;
+}
+
+/* Checklist */
+
+.check {
+    color: green;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+/* Cover Letter */
+
+.cover {
+    background: #edf5e6;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.cover p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.cover button {
+    background: none;
+    border: none;
+    color: #6038ee;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #6038ee;
+    padding: 20px 4%;
+    margin-top: 30px;
+    font-size: 11px;
+    color: #777;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Responsive Design */
+
+@media(max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .resume {
+        width: 100%;
+        padding: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
