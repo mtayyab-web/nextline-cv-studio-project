@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color : #25252A;
+    --primary-btn-color : #6543DC ;
+    --secondary-color : #D5F58A;
+    --bg-color : #FFFFFF;
+    --border-color : #DFDED8;
+    --para-color : #6A6973;
+    --primary-font : 'DM Serif Display';
+    --secondary-font : 'Inter',sans-serif;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #F7F6F2;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.small-text{
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--primary-btn-color) ;
+}
+
+.hero-heading{
+    font-size: 80px;
+    line-height: 85px;
+}
+
+.line{
+    width: 200px;
+    height: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+}
+
+.description{
+    font-size: 19px;
+    font-family: var(--secondary-font);
+    line-height: 165%;
+    color: var(--para-color);
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-primary2{
+    margin: 0;
+    background-color: var(--primary-btn-color);
+    color: var(--bg-color);
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn-secondary{
+    background-color: var(--secondary-btn-color);
+    color: #000;
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.tick{
+    height: 20px;
+    width: 20px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    color: var(--para-color);
+    gap: 8px;
+}
+
+.bottom-text{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    gap: 8px;
+    color: var(--para-color);
+}
+
+.arrow{
+    height: 30px;
+    width: 30px;
+}
+
+.img{
+    height: 650px;
+}
+

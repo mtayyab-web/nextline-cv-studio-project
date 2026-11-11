@@ -24,6 +24,8 @@ h2{
     font-size: 54px;
 }
 
+/* navbar top */
+
 .navbar{
     font-family: var(--secondary-font);
     font-size: 15px;
@@ -38,6 +40,13 @@ h2{
     border: 2px solid #DFDED8;
 }
 
+.nav-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
 .nav-link{
     margin-left: 20px;
 }
@@ -46,12 +55,12 @@ h2{
     color: black;
 }
 
-.btn-primary{
-    margin: 0 0 0 10px;
-    padding: 18px;
+.btn-primary1{
+    padding: 15px;
     border-radius: 8px;
     background-color: var(--primary-btn-color);
     color: #FFFFFF;
    
 }
 
+}
