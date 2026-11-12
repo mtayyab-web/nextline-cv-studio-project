@@ -5,16 +5,17 @@
 
 
 .auth-page{
+   margin: 0 auto;
+    max-width: 1440px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    height: 90vh;
   }
 .login-section-a{
     display: flex;
+    width: 50%;
+    margin: auto;
     width: 440px;
     flex-direction: column;
+    margin: auto;
 }
 .login-header h1 {
  height: 112px;
@@ -191,14 +192,18 @@
     text-decoration: underline;
 }
 .login-section-b {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    margin: auto;
+    max-height: 746px;
     background-color: #EDE8FB;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 744px;
-    height: 746px;
     border-radius: 24px;
     padding: 40px;
 }
