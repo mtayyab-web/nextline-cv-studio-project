@@ -2,19 +2,70 @@
 
 
 .auth-page{
+    margin: 30px auto;
+    max-width: 1440px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    height: 90vh;
   }
+
+ header{
+
+ height: 96px;
+border-bottom: 1px solid var(--border-color);
+padding-top: 28px;
+padding-left: 72px;
+padding-right: 72px;
+padding-bottom: 28px;
+
+ }
+ .header-wrapper{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+ }
+ .header-wrapper .header-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33px;
+  width: 200px;
+
+ } 
+ .header-wrapper  .header-logo img{
+    width: 30px;
+  height: 32px;
+  gap: 4px;
+ }
+  .header-wrapper .header-logo h3{
+    width: 97px;
+    height: 33px;
+    font-family: var(--primary-font);
+    line-height: 100%;
+    font-size: 27px;
+    font-weight: 700;
+    color: #615758;
+
+  }
+
+ header  .header-wrapper .header-nav a{
+  color: #6A6973;
+  font-family: var(--primary-font);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 100%;
+  height: 16px;
+ }
 .login-section-a{
     display: flex;
+    width: 50%;
+    margin: auto;
     width: 440px;
     flex-direction: column;
+    margin: auto;
 }
 .login-header h1 {
-  height: 112px;
+  margin-bottom: 12px;
   width: 440px;
   font-weight: 400;
   line-height: 108%;
@@ -22,6 +73,7 @@
   letter-spacing: -1px;
   color: var(--primary-text-color);
   font-family: var(--primary-font);
+  margin-bottom: 12px;
 }
 .login-header p {
   height: 24px;
@@ -32,11 +84,14 @@
   letter-spacing: 0%;
   line-height: 160%;
   color: var(--para-color);
+  margin-bottom: 26px;
+
 }
 .google-btn {
   color: var(--primary-text-color);
   width: 440px;
   height: 48px;
+  border: 1px var(--border-color);
   border-radius: 8px;
   padding: 20px;
   border-color: var(--border-color);
@@ -81,11 +136,13 @@
 .login-form .form-group {
   height: 74px;
   width: 440px;
+  margin-bottom: 26px;
 }
 .login-form .form-group label {
   height: 16px;
   font-family: var(--secondary-font);
   width: 88px;
+  margin-bottom: 8px;
   font-weight: 600;
   font-size: 13px;
   line-height: 100%;
@@ -99,6 +156,7 @@
   border-radius: 8px;
   border: 1px solid var(--border-color);
   padding: 14px;
+  margin-bottom: 26px;
 }
 .login-options {
   display: flex;
@@ -116,6 +174,7 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: var(--primary-text-color);
+    
 }
 .login-options a{
     color: var(--primary-btn-color);
@@ -129,6 +188,8 @@
   padding-right: 20px;
   padding-left: 20px;
   background-color: var(--primary-btn-color);
+  border: none;
+  /* border-color: var(--border-color); */
   margin-top: 16px;
   margin-bottom: 15px;
 }
@@ -150,14 +211,18 @@
    
 }
 .login-section-b {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    margin: auto;
+    max-height: 746px;
     background-color: #EDE8FB;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 744px;
-    height: 746px;
     border-radius: 24px;
     padding: 40px;
 }
@@ -217,6 +282,43 @@
  line-height: 100%;
  letter-spacing: 0%;
  font-weight: 400;   
+}
+
+footer{
+height: 71px;
+border-top: 1px solid var(--border-color);
+padding-top: 28px;
+padding-left: 72px;
+padding-right: 72px;
+padding-bottom: 280x;
+}
+.footer-wrapper{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+}
+.footer-wrapper p{
+  font-family: var(--primary-text-color);
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 400;
+  color: #6A6973
+ 
+}
+.footer-wrapper ul{
+  display: flex;
+}
+.footer-wrapper ul li{
+  margin-left: 30px;
+}
+.footer-wrapper ul li::marker {
+  color: #615758;        /* Changes only the dot's color */
+  font-size: 0.7em;      /* Makes the dot larger or smaller */
+}
+.footer-wrapper ul li a{
+  color: #6A6973;
 }
 
 /* ==========================================================================

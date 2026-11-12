@@ -13,21 +13,34 @@
     <link rel="stylesheet" href="../CSS-folder/signup.css" />
   </head>
   <body>
+    <header class="main-header">
+      <div class="header-wrapper">
+        <div class="header-logo">
+          <img src="../assets/icons/logo.png" alt="Nextline Logo" />
+          <h3>nextline</h3>
+        </div>
+
+        <nav class="header-nav">
+          <a href="#">A little help? Contact us ↗</a>
+        </nav>
+      </div>
+    </header>
     <main class="auth-page">
       <!-- Login Section -->
       <section class="login-section-a">
         <!-- Heading -->
         <div class="login-header">
-          <h1>A fresh page.
-A stronger story.</h1>
+          <h1>A fresh page. A stronger story.</h1>
           <p>Create your free account. Make a CV that feels like you.</p>
         </div>
 
         <!-- Google Login -->
         <a href="index.html">
-            <div class="google-login">
-          <button type="button" class="google-btn">Continue with Google</button>
-        </div>
+          <div class="google-login">
+            <button type="button" class="google-btn">
+              Continue with Google
+            </button>
+          </div>
         </a>
 
         <!-- Divider -->
@@ -39,9 +52,8 @@ A stronger story.</h1>
 
         <!-- Login Form -->
         <form class="login-form" id="signupForm">
-
-            <!-- -----name---- -->
-             <div class="form-group">
+          <!-- -----name---- -->
+          <div class="form-group">
             <label for="name">Full Name</label>
             <br />
             <input
@@ -79,13 +91,12 @@ A stronger story.</h1>
           </div>
 
           <!-- Remember Me and Forgot Password -->
-          
-            <label class="remember-me">
-              <input type="checkbox" name="remember" id="terms" />
-              I agree to the Terms of use and Privacy policy. Your CV and your story remain yours.
-            </label>
 
-          
+          <label class="remember-me">
+            <input type="checkbox" name="remember" id="terms" />
+            I agree to the Terms of use and Privacy policy. Your CV and your
+            story remain yours.
+          </label>
 
           <!-- Login Button -->
           <button type="submit" class="login-btn">Create my account →</button>
@@ -114,6 +125,19 @@ A stronger story.</h1>
         </div>
       </section>
     </main>
+        <footer>
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2026 Nextline. Your story belongs to you.</p>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="">Help Desk</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
 
     <script src="../JS-folder/signup.js"></script>
   </body>
