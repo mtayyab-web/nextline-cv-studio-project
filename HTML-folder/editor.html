@@ -1,367 +1,173 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nextline - Cover Letter Builder</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextline - Resume Builder</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Top Navbar -->
-  <header class="navbar">
-    <div class="nav-left">
-      <span class="logo"><strong>nextline</strong> CV STUDIO</span>
-    </div>
-    <nav class="nav-links">
-      <a href="#">My resumes</a>
-      <a href="#">Templates</a>
-      <a href="#" class="active">Cover letters</a>
-      <a href="#">Pricing</a>
-    </nav>
-    <div class="nav-right">
-      <span class="badge">Free plan</span>
-      <span class="avatar">AM</span>
-      <span class="user-name">Alex</span>
-    </div>
-  </header>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">▮ Nextline</div>
 
-  <!-- Sub Header / Action Bar -->
-  <div class="action-bar">
-    <div class="doc-title-info">
-      <h3>Alex Morgan — Product Designer · Forma</h3>
-      <p class="status">✓ Cover letter · All changes saved just now</p>
-    </div>
-    <div class="action-buttons">
-      <button class="btn-secondary">← My documents</button>
-      <button class="btn-purple">Preview & download →</button>
-    </div>
-  </div>
+        <nav>
+            <a href="#resume">My Resumes</a>
+            <a href="#cover">Templates</a>
+            <a href="#cover">Cover Letters</a>
+            <a href="#resume">Pricing</a>
+        </nav>
+    </header>
 
-  <!-- Main Content Layout -->
-  <main class="container">
 
-    <!-- Left Column: Form & Suggestions -->
-    <section class="left-panel">
-      <span class="section-tag">AN INTRODUCTION, IN YOUR VOICE</span>
-      <h1 class="main-title">Make the connection.</h1>
-      <p class="sub-text">Show why this role matters to you—and what you'll bring to it.</p>
+    <!-- COVER LETTER SECTION -->
+    <section class="container" id="cover">
 
-      <!-- Stepper Tabs -->
-      <div class="stepper">
-        <span class="step done">1 Role details ✓</span>
-        <span class="step active">2 Your letter</span>
-        <span class="step">3 Review</span>
-      </div>
-
-      <!-- Input Fields Grid -->
-      <form class="form-grid">
-        <div class="field">
-          <label>Target role</label>
-          <input type="text" value="">
-        </div>
-        <div class="field">
-          <label>Company</label>
-          <input type="text" value="">
-        </div>
-        <div class="field full-width">
-          <label>Hiring manager</label>
-          <input type="text" value="">
-        </div>
-        <div class="field full-width">
-          <label>Linked CV</label>
-          <select>
-            <option></option>
-            <option>for digstan</option>
-            <option>for digital marketing</option>
-          </select>
-        </div>
-        <div class="field full-width">
-          <label>Why this role?</label>
-          <textarea rows="3"></textarea>
-        </div>
-      </form>
-
-      <!-- AI Writing Room Box -->
-      <div class="ai-box">
-        <div class="ai-header">✦ The Nextline writing room</div>
-        <p class="ai-desc">Connect your onboarding work at Harbour Studio with Forma's focus on simpler workflows. Keep the opening specific, not over-familiar.</p>
-        
-        <div class="ai-card">
-          <span class="ai-tag">SUGGESTED OPENING · EDITABLE</span>
-          <p class="ai-text">I'm drawn to Forma's focus on making complex work feel simple. At Harbour Studio, I've worked on that same challenge: turning a complicated setup process into a clearer first-project experience.</p>
-          <div class="ai-actions">
-            <button class="btn-use">Use this opening ✓</button>
-            <a href="#" class="btn-link">Try another ↺</a>
-          </div>
-        </div>
-        <span class="ai-footer">Only keep what's true. You can edit or skip every suggestion.</span>
-      </div>
-
-      <!-- Tone & Length Options -->
-      <div class="options-grid">
-        <div class="field">
-          <label>Tone</label>
-          <input type="text">
-        </div>
-        <div class="field">
-          <label>Length</label>
-          <input type="text">
-        </div>
-      </div>
-
-      <button class="btn-submit">Review my letter →</button>
-    </section>
-
-    <!-- Right Column: Document Preview -->
-    <section class="right-panel">
-      <div class="preview-header">
-        <span>LETTER PREVIEW</span>
-        <span>A4 · 80%</span>
-      </div>
-
-      <!-- A4 Page Paper -->
-      <div class="paper">
-        <h1 class="doc-name">Alex Morgan</h1>
-        <p class="doc-role">Product Designer</p>
-        <p class="doc-meta">London, UK · alex.morgan@email.com · +44 7700 900123 · alexmorgan.design</p>
-        
-        <hr class="doc-line">
-
-        <p class="doc-date">31 October 2026</p>
-        <p>Jamie Patel<br>Hiring team · Forma</p>
-        
-        <p class="doc-re"><strong>Re: Product Designer</strong></p>
-        
-        <p>Dear Jamie,</p>
-        <p>I'm drawn to Forma's focus on making complex work feel simple. At Harbour Studio, I've worked on that same challenge: turning a complicated setup process into a clearer first-project experience.</p>
-        <p>My approach starts with listening. I led usability sessions with 12 customers to understand where they were getting stuck, then worked with product managers and engineers to prioritise the changes that mattered. I enjoy connecting those research findings to practical, accessible interface patterns.</p>
-        <p>Before Harbour Studio, I designed customer journeys and prototypes at North & Co. That work taught me how to make decisions collaboratively and communicate the thinking behind a design—not just the final screens.</p>
-        <p>I'd welcome the chance to bring that approach to Forma and learn more about the problems your team is working on. Thank you for considering my application.</p>
-        
-        <p>Best wishes,<br><strong>Alex Morgan</strong></p>
-      </div>
-      <p class="preview-footer">Page 1 of 1 · Matches The Studio CV</p>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <span>© 2026 Nextline. Your story belongs to you.</span>
-    <div class="footer-links">
-      <a href="#">Help desk</a>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">English ˅</a>
-    </div>
-  </footer>
-
-  
-  
-    <!-- Navbar -->
-    <nav class="navbar">
-
-        <div class="logo">▮▮ nextline</div>
-
-        <div class="nav-links">
-            <a href="#">My resumes</a>
-            <a href="#">Templates</a>
-            <a href="#">Cover letters</a>
-            <a href="#">Pricing</a>
+        <div class="heading">
+            <h1>Make the connection.</h1>
+            <p>Build your professional cover letter and impress employers.</p>
         </div>
 
-        <div class="profile">Free plan 👤 Alex</div>
+        <div class="cover-layout">
 
-    </nav>
+            <!-- LEFT FORM -->
+            <div class="editor">
 
+                <h2>Cover Letter Details</h2>
 
-    <!-- Main Section -->
-    <div class="container">
+                <div class="two-columns">
 
-        <p class="small-text">YOUR NEXT CHAPTER, READY TO GO</p>
+                    <div class="form-group">
+                        <label>Target Position</label>
+                        <input type="text" placeholder="">
+                    </div>
 
-        <h1>Made by you. Ready for what's next.</h1>
+                    <div class="form-group">
+                        <label>Company</label>
+                        <input type="text" placeholder="">
+                    </div>
 
-        <p class="subtitle">
-            One last look, then take your story with you.
-        </p>
-
-
-        <div class="main-content">
-
-            <!-- Resume Preview -->
-            <div class="preview">
-
-                <div class="preview-top">
-
-                    <b>Alex Morgan — Product Designer</b>
                 </div>
 
+                <div class="form-group">
+                    <label>Hiring Manager</label>
+                    <input type="text" placeholder="">
+                </div>
 
-                <div class="resume" id="resume">
+                <div class="form-group">
+                    <label>Linked CV</label>
+                    <input type="text">
+                </div>
 
-                    <h2>Alex Morgan</h2>
+                <div class="form-group">
+                    <label>Why this role?</label>
+                    <textarea placehoAllder="Explain why you are interested..."></textarea>
+                </div>
 
-                    <h4>Product Designer</h4>
+                <!-- WRITING AREA -->
+                <div class="writing-box">
+
+                    <h3>✦ The Narrative Writing Area</h3>
 
                     <p>
-                        London, UK · alex.morgan@email.com
-                        · +44 7700 900123
+                        Create your professional cover letter.
+                        Write about your skills and experience.
+                    </p>
+
+                    <div class="form-group">
+                        <label>Introduction</label>
+                        <textarea placeholder=""></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Your Experience</label>
+                        <textarea placeholder=""></textarea>
+                    </div>
+
+                    <button class="btn">Use this paragraph</button>
+
+                </div>
+
+                <div class="two-columns">
+
+                    <div class="form-group">
+                        <label>Tone</label>
+                        <select>
+                            <option>Warm & Professional</option>
+                            <option>Formal</option>
+                            <option>Friendly</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Length</label>
+                        <select>
+                            <option>One page</option>
+                            <option>Two pages</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <button class="btn full-btn">
+                    Review my letter →
+                </button>
+
+            </div>
+
+
+            <!-- RIGHT LETTER PREVIEW -->
+            <div class="preview">
+
+                <div class="letter">
+
+                    <h2>Alex Morgan</h2>
+                    <h3>Product Designer</h3>
+
+                    <p>
+                        alex.morgan@email.com<br>
+                        New York, USA<br>
+                        +1 234 567 890
                     </p>
 
                     <hr>
 
-                    <h4>PROFILE</h4>
+                    <p>Dear Hiring Manager,</p>
 
                     <p>
-                        Thoughtful product designer with 5 years
-                        of experience turning complex workflows
-                        into clear digital experiences.
+                        I am excited to apply for the Product
+                        Designer position. With my experience
+                        in user-centered design and creative
+                        problem solving, I believe I can make
+                        a valuable contribution to your team.
                     </p>
-
-                    <h4>EXPERIENCE</h4>
-
-                    <b>Product Designer - Harbour Studio</b>
-
-                    <p>May 2022 - Present · London</p>
-
-                    <ul>
-                        <li>Partnered with product teams.</li>
-                        <li>Created user-friendly interfaces.</li>
-                        <li>Built reusable components.</li>
-                    </ul>
-
-                    <h4>EDUCATION</h4>
 
                     <p>
-                        BA (Hons) Graphic Communication
-                        <br>
-                        University of the West of England
+                        My experience includes creating
+                        intuitive interfaces, conducting
+                        user research and collaborating
+                        with development teams.
                     </p>
-
-                    <h4>SELECTED SKILLS</h4>
 
                     <p>
-                        User research · Interaction design ·
-                        Prototyping · Figma · Accessibility
+                        I enjoy transforming complex ideas
+                        into simple and beautiful digital
+                        experiences.
                     </p>
-
-                </div>
-
-                <div class="resume-footer">
-                    Page 1 of 1
-                </div>
-
-            </div>
-
-
-            <!-- Right Side -->
-            <div class="right-side">
-
-                <div class="card">
-
-                    <h3>Take your next step</h3>
-
-                    <label>File name</label>
-
-                    <input
-                        type="text"
-                        id="fileName"
-                        value="Alex_Morgan_Product_Designer"
-                    >
-
-                    <label>Download format</label>
-
-                    <div class="format active" id="pdfBox"
-                         onclick="selectFormat('pdf')">
-
-                        <input type="radio" name="format" checked>
-                        PDF document
-
-                        <p>Recommended</p>
-
-                        <p>
-                            Keeps your layout intact.
-                            Selectable text for applications.
-                        </p>
-
-                    </div>
-
-
-                    <div class="format" id="textBox"
-                         onclick="selectFormat('txt')">
-
-                        <input type="radio" name="format">
-                        Plain text (.txt)
-
-                        <p>Free</p>
-
-                    </div>
-
-
-                    <div class="row">
-
-                        <div>
-                            <label>Paper size</label>
-
-                            <select id="paperSize">
-                                <option>A4</option>
-                                <option>Letter</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label>Pages</label>
-
-                            <select>
-                                <option>All - 1 page</option>
-                                <option>Page 1</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-
-                    <button class="download-btn"
-                            onclick="downloadCV()">
-                        Download my CV ↓
-                    </button>
-
-                    <p class="note">
-                        Your CV is ready for download.
-                    </p>
-
-                </div>
-
-
-                <!-- Checklist -->
-                <div class="card">
-
-                    <h3>Before you send</h3>
-
-                    <p class="check">✓ Contact details checked</p>
-
-                    <p class="check">✓ Dates and spelling reviewed</p>
-
-                    <p class="check">✓ Every achievement is yours</p>
-
-                </div>
-
-
-                <!-- Cover Letter -->
-                <div class="cover">
-
-                    <h3>Give your story an introduction.</h3>
 
                     <p>
-                        Make a cover letter that matches this CV
-                        and speaks to the role.
+                        Thank you for considering my application.
+                        I look forward to discussing this opportunity.
                     </p>
 
-                    <button onclick="createCoverLetter()">
-                        Create a cover letter →
-                    </button>
+                    <p>
+                        Sincerely,<br><br>
+                        <strong>Alex Morgan</strong>
+                    </p>
 
                 </div>
 
@@ -369,20 +175,542 @@
 
         </div>
 
+    </section>
+
+
+    <!-- MY RESUMES SECTION -->
+    <section class="container" id="resume">
+
+        <div class="heading">
+            <h1>Made by you. Ready for what's next.</h1>
+            <p>Your professional resume is ready.</p>
+        </div>
+
+        <div class="resume-layout">
+
+            <!-- RESUME PREVIEW -->
+            <div class="resume-preview">
+
+                <div class="resume-paper">
+
+                    <h2>Alex Morgan</h2>
+                    <p>Product Designer</p>
+
+                    <p>
+                        New York, USA |
+                        alex@email.com |
+                        +1 234 567 890
+                    </p>
+
+                    <hr>
+
+                    <h3>PROFILE</h3>
+
+                    <p>
+                        Creative and detail-oriented Product
+                        Designer with experience in designing
+                        modern digital products and user-friendly
+                        interfaces.
+                    </p>
+
+                    <h3>EXPERIENCE</h3>
+
+                    <p><strong>Product Designer - Harbor Studio</strong></p>
+                    <p>2022 - Present</p>
+
+                    <ul>
+                        <li>Designed user-friendly interfaces.</li>
+                        <li>Worked with developers and product teams.</li>
+                        <li>Improved user experience.</li>
+                    </ul>
+
+                    <h3>UX/UI DESIGNER - NORTH & CO.</h3>
+
+                    <p>2020 - 2022</p>
+
+                    <ul>
+                        <li>Created website designs.</li>
+                        <li>Developed wireframes and prototypes.</li>
+                        <li>Collaborated with creative teams.</li>
+                    </ul>
+
+                    <h3>EDUCATION</h3>
+
+                    <p>
+                        Bachelor of Design<br>
+                        University of New York
+                    </p>
+
+                    <h3>SELECTED SKILLS</h3>
+
+                    <p>
+                        UI Design - UX Research - Figma -
+                        Prototyping - Typography - Branding
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDEBAR -->
+            <div class="sidebar">
+
+                <div class="side-card">
+
+                    <h3>Take your next step</h3>
+
+                    <label>File Name</label>
+
+                    <input type="text"
+                    value="">
+
+                    <label>Download Format</label>
+                    <input type="text">
+
+                   
+
+                    <label>Paper Size</label>
+
+                    <input type="text">
+
+                    <label>Pages</label>
+
+                    <input type="text">
+
+                    <button class="btn full-btn">
+                        Download my CV →
+                    </button>
+
+                </div>
+
+
+                <!-- CHECKLIST -->
+                <div class="side-card">
+
+                    <h3>Before you send</h3>
+
+                    <ul class="check-list">
+                        <li>Contact details checked</li>
+                        <li>Dates and spelling reviewed</li>
+                        <li>Every achievement is clear</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- COVER LETTER LINK -->
+                <div class="green-box">
+
+                    <h3>Give your story an introduction.</h3>
+
+                    <p>
+                        Make a cover letter that matches
+                        this CV and speaks to the role.
+                    </p>
+
+                    <br>
+
+                    <a href="#cover" class="btn">
+                        Create a cover letter →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Nextline. All rights reserved.
+    </footer>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+       
+<!-- RESUME DESIGN EDITOR -->
+
+<section class="design-app" id="design-editor">
+
+    <!-- TOP HEADER -->
+    <header class="design-header">
+
+        <div class="design-logo">
+            <span>▮▮</span> nextline
+            <small>CV STUDIO</small>
+        </div>
+
+        <div class="design-user">
+            <strong>Alex Morgan — Product Designer⌄</strong>
+            <small>✓ All changes saved · Just now</small>
+        </div>
+
+        <div class="design-actions">
+            <a href="#resume" class="design-back">← My resumes</a>
+            <button class="design-export">Preview & Export ↗</button>
+        </div>
+
+    </header>
+
+
+    <!-- MAIN EDITOR -->
+    <div class="design-workspace">
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="design-sidebar">
+
+            <div class="sidebar-title">
+                YOUR CV / THE STUDIO
+            </div>
+
+            <a href="#design-editor">Contect</a>
+
+            <a href="#design-editor">Design</a>
+            <a href="#design-editor">ATS review</a>
+
+            <hr>
+
+            <ul class="design-menu">
+                <li>✓ Personal details</li>
+                <li>✓ Profile</li>
+                <li>✓ Work experience</li>
+                <li>✓ Education</li>
+                <li>✓ Skills</li>
+                <li>✓ Projects</li>
+            </ul>
+
+            <a href="#design-editor" class="add-section">
+                + Add a section
+            </a>
+
+            <div class="sidebar-tip">
+                Life happens. Pick up
+                where you left off.
+            </div>
+
+        </aside>
+
+
+        <!-- DESIGN SETTINGS -->
+        <main class="design-settings">
+
+            <div class="design-heading">
+                <span>PERSONALITY, WITH PURPOSE</span>
+                <h1>Your signature style.</h1>
+                <p>
+                    New look. Same great story.
+                    A few considered details make it yours.
+                </p>
+            </div>
+
+
+            <!-- TEMPLATE -->
+            <div class="template-box">
+
+                <div>
+                    <small>CURRENT TEMPLATE</small>
+                    <h3>The Studio</h3>
+                </div>
+
+                <a href="#design-editor">Change ↗</a>
+
+            </div>
+
+
+            <!-- ACCENT COLOR -->
+            <div class="design-group">
+
+                <div class="group-heading">
+                    <h3>Accent color</h3>
+                    <span>#6543DC</span>
+                </div>
+
+                <div class="color-options">
+
+                    <input type="radio" name="accent" id="purple" >
+                    <label for="purple" class="color purple"></label>
+
+                    <input type="radio" name="accent" id="green">
+                    <label for="green" class="color green"></label>
+
+                    <input type="radio" name="accent" id="brown">
+                    <label for="brown" class="color brown"></label>
+
+                    <input type="radio" name="accent" id="blue">
+                    <label for="blue" class="color blue"></label>
+
+                    <input type="radio" name="accent" id="black">
+                    <label for="black" class="color black"></label>
+
+                </div>
+
+            </div>
+
+
+            <!-- TYPOGRAPHY -->
+            <div class="design-group">
+
+                <h3>Typography</h3>
+
+                <div class="font-options">
+
+                    <label class="font-card selected">
+                        <span>Aa</span>
+                        Editorial
+                    </label>
+
+                    <label class="font-card">
+                        <span>Aa</span>
+                        Modern
+                    </label>
+
+                    <label class="font-card">
+                        <span>Aa</span>
+                        Classic
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- BODY SETTINGS -->
+            <div class="design-group">
+
+                <div class="setting-grid">
+
+                    <div>
+                        <label>Body size</label>
+                        <select>
+                            <option>10 pt</option>
+                            <option>11 pt</option>
+                            <option>12 pt</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Line height</label>
+                        <select>
+                            <option>1.45</option>
+                            <option>1.5</option>
+                            <option>1.6</option>
+                        </select>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- LAYOUT SETTINGS -->
+            <div class="design-group">
+
+                <h3>Layout & spacing</h3>
+
+                <div class="setting-grid">
+
+                    <div>
+                        <label>Page size</label>
+                        <select>
+                            <option>A4</option>
+                            <option>Letter</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Margins</label>
+                        <select>
+                            <option>16 mm</option>
+                            <option>12 mm</option>
+                            <option>20 mm</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="spacing-heading">
+                    <label>Section spacing</label>
+                    <span>Balanced</span>
+                </div>
+
+                <input
+                    type="range"
+                    min="1"
+                    max="100"
+                    value="65"
+                    class="spacing-range"
+                >
+
+                <div class="spacing-labels">
+                    <span>Compact</span>
+                    <span>Roomy</span>
+                </div>
+
+            </div>
+
+
+            <!-- BOTTOM BUTTONS -->
+            <div class="design-bottom">
+
+                <button class="reset-btn">
+                    Reset to template defaults
+                </button>
+
+                <button class="review-btn">
+                    Review my CV →
+                </button>
+
+            </div>
+
+        </main>
+
+
+        <!-- LIVE PREVIEW -->
+        <section class="live-preview">
+
+            <div class="live-top">
+
+                <h3>LIVE PREVIEW</h3>
+
+                <div>
+                    <button>-</button>
+                    <span>80%</span>
+                    <button>+</button>
+                </div>
+
+            </div>
+
+
+            <!-- CV PAPER -->
+            <div class="cv-paper">
+
+                <h1>Alex Morgan</h1>
+
+                <h4>Product Designer</h4>
+
+                <p class="cv-contact">
+                    London, UK · alex.morgan.com · +44 7700 900123
+                    <br>
+                    alexmorgan.design · linkedin.com/alexmorgan
+                </p>
+
+                <hr>
+
+                <div class="cv-section">
+
+                    <h3>PROFILE</h3>
+
+                    <p>
+                        Thoughtful product designer with 5 years
+                        of experience turning complex workflows
+                        into clear, beautiful experiences.
+                        Combines research, interaction design
+                        and a collaborative approach.
+                    </p>
+
+                </div>
+
+
+                <div class="cv-section">
+
+                    <h3>EXPERIENCE</h3>
+
+                    <h4>Product Designer · Harbor Studio</h4>
+
+                    <small>May 2022 - Present · London</small>
+
+                    <ul>
+                        <li>
+                            Partnered with the product team to
+                            redesign onboarding, reducing complex
+                            setup steps into clearer workflows.
+                        </li>
+
+                        <li>
+                            Designed a component system to
+                            streamline iteration and maintain
+                            consistency across interfaces.
+                        </li>
+
+                        <li>
+                            Built reusable components with
+                            engineering teams.
+                        </li>
+                    </ul>
+
+
+                    <h4>UX Designer · North & Co.</h4>
+
+                    <small>July 2020 - April 2022 · London</small>
+
+                    <ul>
+                        <li>
+                            Mapped customer journeys and tested
+                            prototypes for a self-service account portal.
+                        </li>
+
+                        <li>
+                            Worked with developers to translate
+                            research findings into accessible
+                            interface patterns.
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="cv-section">
+
+                    <h3>EDUCATION</h3>
+
+                    <h4>BA (Hons) Graphic Communication</h4>
+
+                    <small>University of the Arts London · 2017-2020</small>
+
+                </div>
+
+
+                <div class="cv-section">
+
+                    <h3>SELECTED SKILLS</h3>
+
+                    <p>
+                        User research · Interaction design ·
+                        Prototyping · Design systems · Figma ·
+                        Accessibility · Workshop facilitation
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="page-number">
+                Page 1 of 1
+            </div>
+
+            <p class="preview-footer">
+                The Studio · A4 · Your changes appear here
+            </p>
+
+        </section>
+
     </div>
 
+</section>
 
-    <!-- Footer -->
-    <footer>
-
-        <p>© 2026 Nextline. Your story belongs to you.</p>
-
-        <p>Help desk · Privacy · Terms · English</p>
-
-    </footer>
-  
-  
-   
+    </body>
+    </html>
 
 </body>
 </html>
