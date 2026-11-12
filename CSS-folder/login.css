@@ -2,10 +2,60 @@
 
 
 .auth-page{
-    margin: 0 auto;
+    margin: 30px auto;
     max-width: 1440px;
     display: flex;
   }
+
+ header{
+
+ height: 96px;
+border-bottom: 1px solid var(--border-color);
+padding-top: 28px;
+padding-left: 72px;
+padding-right: 72px;
+padding-bottom: 28px;
+
+ }
+ .header-wrapper{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+ }
+ .header-wrapper .header-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33px;
+  width: 200px;
+
+ } 
+ .header-wrapper  .header-logo img{
+    width: 30px;
+  height: 32px;
+  gap: 4px;
+ }
+  .header-wrapper .header-logo h3{
+    width: 97px;
+    height: 33px;
+    font-family: var(--primary-font);
+    line-height: 100%;
+    font-size: 27px;
+    font-weight: 700;
+    color: #615758;
+
+  }
+
+ header  .header-wrapper .header-nav a{
+  color: #6A6973;
+  font-family: var(--primary-font);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 100%;
+  height: 16px;
+ }
 .login-section-a{
     display: flex;
     width: 50%;
@@ -35,6 +85,7 @@
   line-height: 160%;
   color: var(--para-color);
   margin-bottom: 26px;
+
 }
 .google-btn {
   color: var(--primary-text-color);
@@ -137,6 +188,8 @@
   padding-right: 20px;
   padding-left: 20px;
   background-color: var(--primary-btn-color);
+  border: none;
+  /* border-color: var(--border-color); */
   margin-top: 16px;
   margin-bottom: 15px;
 }
@@ -229,6 +282,43 @@
  line-height: 100%;
  letter-spacing: 0%;
  font-weight: 400;   
+}
+
+footer{
+height: 71px;
+border-top: 1px solid var(--border-color);
+padding-top: 28px;
+padding-left: 72px;
+padding-right: 72px;
+padding-bottom: 280x;
+}
+.footer-wrapper{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+}
+.footer-wrapper p{
+  font-family: var(--primary-text-color);
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 400;
+  color: #6A6973
+ 
+}
+.footer-wrapper ul{
+  display: flex;
+}
+.footer-wrapper ul li{
+  margin-left: 30px;
+}
+.footer-wrapper ul li::marker {
+  color: #615758;        /* Changes only the dot's color */
+  font-size: 0.7em;      /* Makes the dot larger or smaller */
+}
+.footer-wrapper ul li a{
+  color: #6A6973;
 }
 
 /* ==========================================================================
