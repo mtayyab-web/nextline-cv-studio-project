@@ -1,7 +1,26 @@
 ## nextline-cv-studio
 
+A modern, responsive, and high-end web application designed to build professional ATS-friendly CVs with ease.
+
+## Tech Stack
+
+HTML5 (Semantic structure)
+
+CSS3 (Flexbox, Custom Properties)
+
+JavaScript (ES6+) (DOM manipulation, Event listeners)
+
+## Team Members & Contributions 
+
+M.Tayyab : Landing Page & Gallery
+
+Shahzad Ali : Authentication, Dashboard & Profile
+
+Afnan Arshad : CV Editor, ATS checker & Pricing
+
 ## 📁 Project Folder Structure
 
+```
 NEXTLINE-CV-STUDIO/
 │
 ├── 📁 assets/
@@ -12,7 +31,7 @@ NEXTLINE-CV-STUDIO/
 │   ├── common.css         # only common styles for all pages
 │   ├── editor.css         # Styles for Live Workspace Editor
 │   ├── index.css          # Styles for Home Page
-|   ├── login.html         # login style
+|   ├── login.css          # login style
 │   ├── signup.css         # Styles for Authentication
 │   └── templates.css      # Styles for Template Gallery
 │
@@ -26,8 +45,9 @@ NEXTLINE-CV-STUDIO/
 ├── 📁 JS-folder/
 │   ├── editor.js          # Dynamic DOM Binding & Live Preview Sync
 │   ├── index.js           # Interactivity for Home Page
-|   ├── login.html         # login logic & validation 
+|   ├── login.js           # login logic & validation 
 │   ├── signup.js          # Authentication Form Validation
 │   └── templates.js       # Template Filtering & Selection Logic
 │
 └── README.md
+```
